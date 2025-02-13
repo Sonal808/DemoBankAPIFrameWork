@@ -38,12 +38,6 @@ My Major expertise is in Java Programming Language.
 
 - **Data Generation** : Faker for fake data generation.
 
-- **Cloud Testing** : Integrated with LambdaTest for cloud-based testing.
-
-- **Headless Mode** : Faster execution by running tests in headless mode.
-
-- **Cross Browser Testing**: Supports runnig tests on different browsers.
-
 - **Reporting** : Extent Reports for detailed test reports.
 
 - **Logging** : Log4j for detailed logging.
@@ -56,7 +50,6 @@ My Major expertise is in Java Programming Language.
 - Gson
 - Apache POI
 - Faker
-- LambdaTest
 - Log4j
 - Extent Reports
 
@@ -73,17 +66,12 @@ My Major expertise is in Java Programming Language.
 **Clone the repository and navigate to the project root:**
 
 ```bash
- git clone https://github.com/Sonal808/Test-Automation-Framework.git
- cd Test-Automation-Framework
+ git clone https://github.com/Sonal808/DemoBankAPIFrameWork.git
+ cd DemoBankAPIFrameWork
 ```
-**Running Tests on LambdaTest:**
+**Running Tests on Console:**
 ```bash
-   mvn test -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=false -X
-```
-
-**Running Tests on chrome browser on Local machine in headless mode :**
-```bash
-   mvn test -Dbrowser=chrome -DisLambdaTest=false -DisHeadless=true -X
+   mvn clean test -Dsuite=suite -X
 ```
 
 ## Reports & Logs
@@ -97,7 +85,7 @@ Logs are created during the test execution and stored in the ./logs/ directory
 
 ## Integrated the project with GitHub Actions
 This project is integrated with Github actions.
-The tests will be executed ata 11:30 PM AEST every single day.
+The tests will be executed ata 09:40 PM AEST every single day.
 
 The reports will be archieved gh-pages
 You can view the HTML reports at : https://sonal808.github.io/Test-Automation-Framework/report.html
